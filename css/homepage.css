@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+nav {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+nav > h1 {
+    font-family: monospace;
+    color: #FDD251;
+}
+
+nav > div > a {
+    padding: 10px 20px;
+    background: #FDD251;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+
+.hero {
+    width: 100vw;
+    height: 95vh;
+    background-image: url("../asset/background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 130px;
+    max-width: 45vw;
+    font-family: monospace;
+    padding-right: 0;
+    padding-left: 100px;
+}
+
+.left h1 {
+    color: white;
+    font-size: 3.4em;
+    margin-bottom: 0;
+    padding-right: 40px;
+}
+
+.left p {
+    color: aliceblue;
+    font-size: 2em;
+    padding-right: 3em;
+}
+
+.left button {
+    font-family: monospace;
+    color: white;
+    background: #FDD251;
+    border: none;
+    width: 300px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    font-size: 1.7em;
+    border-radius: .4em;
+    box-shadow: 1px 3px 3px gray;
+}
+
+.right {
+    box-sizing: border-box;
+    max-width: 55vw;
+}
+
+.right img {
+    padding-top: 13em;
+    padding-right: 3.5em;
+}
