@@ -1,135 +1,215 @@
 body {
     margin: 0;
+    max-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+nav {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+nav > h1 {
+    font-family: monospace;
+    color: #FDD251;
+}
+
+nav > div > a {
+    padding: 10px 20px;
+    background: #FDD251;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+
+.hero {
+    width: 100vw;
+    height: 95vh;
+    background-image: url("../asset/background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 130px;
+    max-width: 45vw;
+    font-family: monospace;
+    padding-right: 0;
+    padding-left: 100px;
+}
+
+.left h1 {
+    color: white;
+    font-size: 3.4em;
+    margin-bottom: 0;
+    padding-right: 40px;
+}
+
+.left p {
+    color: aliceblue;
+    font-size: 2em;
+    padding-right: 3em;
+}
+
+.left button {
+    font-family: monospace;
+    color: white;
+    background: #FDD251;
+    border: none;
+    width: 300px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    font-size: 1.7em;
+    border-radius: .4em;
+    box-shadow: 1px 3px 3px gray;
+}
+
+.right {
+    box-sizing: border-box;
+    max-width: 55vw;
+    padding-top: 13em;
+    padding-right: 2em;
+}
+
+.hero2 {
+    height: 50vh;
+    max-width: 100vw;
+    display: flex;
     font-family: monospace;
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+.txt {
+    box-sizing: border-box;
+    padding: 50px 100px;
 }
 
-.create-account {
-    width: 55%;
-    height: 100%;
-    background-color: #FDD251;
+.txt h1 {
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+
+.txt p {
+    font-size: 1.8em;
+}
+
+.hero3 {
+    max-width: 100vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: monospace;
+}
+
+.title {
+    align-self: center;
+    font-size: 2.5em;
+    margin-top: 2em;
+    margin-bottom: 1em
+}
+
+.blocks {
+    display: flex;
+    margin: 2em 4em;
+    justify-content: space-evenly;
+}
+
+
+
+.frame1 {
+    width: 200px;
+    height: 220px;
+    background: rgb(252, 251, 251);
+    padding: 20px 20px;
+    border-radius: 1em;
+    box-shadow: 0px 2px 4px rgb(158, 156, 156);
+}
+
+.frame2 {
+    width: 200px;
+    height: 220px;
+    background: rgb(252, 251, 251);
+    padding: 20px 20px;
+    border-radius: 1em;
+    box-shadow: 0px 2px 4px rgb(158, 156, 156);
+    margin-bottom: 10px;
+}
+
+.frame3 {
+    width: 200px;
+    height: 220px;
+    background: rgb(252, 251, 251);
+    padding: 20px 20px;
+    border-radius: 1em;
+    box-shadow: 0px 2px 4px rgb(158, 156, 156);
+}
+
+.hero4 {
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url("../asset/background2.png");
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    font-family: monospace;
     justify-content: center;
     align-items: center;
 }
 
-.create-account > p {
-    width: 80%;
-    text-align: center;
-    font-size: x-large;
-    margin-top: 0;
-    font-size: 1.1rem;
+.hero4 > h1 {
+    align-self: center;
+    font-size: 5em;
+    margin: 0;
+    margin-bottom: 50px;
 }
 
-.create-account > h2 {
-    font-size: 2.2rem;
-    margin-bottom: 20px;
-}
-
-.create-account > img {
-    width: 400px;
-}
-
-.create-account > a {
-    font-size: 1.2rem;
-    padding: 30px 50px;
-    border-radius: .5em;
-    border: none;
-    box-shadow: 0px 3px 4px #b38a10;
-    font-weight: bold;
-    color: #FDD251;
-    background-color: rgb(255, 255, 255);
-    margin-top: 30px;
-    cursor: pointer;
-}
-
-span {
-    color: #FDD251;
-}
-
-a {
-    text-decoration: none;
-    color: #928D8D;
-    margin-top: 15px;
-    text-align: center;
-}
-
-.log-in {
-    padding: 7% 15%;
+.one {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.whatever, .whatever2 {
+    display: flex;
+    padding: 3em 4em;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.whatever h1 {
+    font-size: 2.5em;
+    padding: 2em 1em;
+    border-right: 5px solid black; 
+    width: 450px;
     box-sizing: border-box;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 45%;
-    justify-content: space-evenly;
-    align-items: stretch;
+.whatever2 h1 {
+    font-size: 2.5em;
+    padding: 2em 1em;
+    border-right: 5px solid black; 
+    width: 450px;
+    box-sizing: border-box;
 }
 
-form > input {
-    padding: 15px;
-    font-size: 1.3rem;
-    border: none;
-    outline: none;
-    background: #F5F5F5;
-    border-radius: .2em;
+.ve p{
+    font-size: 2em;
+    padding-left: 1em;
 }
 
-form > a {
-    font-size: 1.3rem;
-    font-weight: bold;
-    padding: 15px;
-    border: none;
-    background: #FDD251;
-    box-shadow: 0 2px 6px #4e4c477f;
-    color: white;
-    cursor: pointer;
-    border-radius: .2em;
-}
-
-form > div {
-    text-align: end;
-    color: #FDD251;
-}
-
-.log-in > h1 {
-    font-size: 2.2rem;
-    text-align: center;
-}
-
-.log-in > h4 {
-    text-align: center;
-    margin-top: 0;
-    color: #928D8D;
-    cursor: pointer;
-}
-
-.logo-container {
-    text-align: center;
-}
-
-.logo-container > img {
-    width: 65px;
-    cursor: pointer;
-    margin: 0px 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.logo-container > img:nth-child(2) {
-    border: 1px solid #928D8D;
-    border-radius: 50%;
+.vee p{
+    font-size: 2em;
+    padding-left: 1em;
 }
 
 
