@@ -2,6 +2,7 @@ body {
     margin: 0;
     max-width: 100vw;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 nav {
@@ -77,9 +78,135 @@ nav > div > a {
 .right {
     box-sizing: border-box;
     max-width: 55vw;
+    padding-top: 13em;
+    padding-right: 2em;
 }
 
-.right img {
-    padding-top: 13em;
-    padding-right: 3.5em;
+.hero2 {
+    height: 50vh;
+    max-width: 100vw;
+    display: flex;
+    font-family: monospace;
 }
+
+.txt {
+    box-sizing: border-box;
+    padding: 50px 100px;
+}
+
+.txt h1 {
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+
+.txt p {
+    font-size: 1.8em;
+}
+
+.hero3 {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+}
+
+.title {
+    align-self: center;
+    font-size: 2.5em;
+    margin-top: 2em;
+    margin-bottom: 1em
+}
+
+.blocks {
+    display: flex;
+    margin: 2em 4em;
+    justify-content: space-evenly;
+}
+
+
+
+.frame1 {
+    width: 200px;
+    height: 220px;
+    background: rgb(252, 251, 251);
+    padding: 20px 20px;
+    border-radius: 1em;
+    box-shadow: 0px 2px 4px rgb(158, 156, 156);
+}
+
+.frame2 {
+    width: 200px;
+    height: 220px;
+    background: rgb(252, 251, 251);
+    padding: 20px 20px;
+    border-radius: 1em;
+    box-shadow: 0px 2px 4px rgb(158, 156, 156);
+    margin-bottom: 10px;
+}
+
+.frame3 {
+    width: 200px;
+    height: 220px;
+    background: rgb(252, 251, 251);
+    padding: 20px 20px;
+    border-radius: 1em;
+    box-shadow: 0px 2px 4px rgb(158, 156, 156);
+}
+
+.hero4 {
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url("../asset/background2.png");
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero4 h1 {
+    align-self: center;
+    font-size: 5em;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+}
+
+.whatever, .whatever2 {
+    display: flex;
+    padding: 3em 4em;
+    box-sizing: border-box;
+}
+
+.whatever h1 {
+    font-size: 2.5em;
+    padding: 2.5em 2em;
+    border-right: 5px solid black; 
+    width: 450px;
+    box-sizing: border-box;
+}
+
+.whatever2 h1 {
+    font-size: 2.5em;
+    padding: 2.5em 2em;
+    border-right: 5px solid black; 
+    width: 450px;
+    box-sizing: border-box;
+}
+
+.ve p{
+    font-size: 2em;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.vee p{
+    font-size: 2em;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+

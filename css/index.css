@@ -86,7 +86,7 @@ form > input {
     border-radius: .2em;
 }
 
-form > button {
+form > a {
     font-size: 1.3rem;
     font-weight: bold;
     padding: 15px;
