@@ -138,6 +138,7 @@ nav {
     border: 2px solid #dcb02d;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .b {
@@ -235,4 +236,31 @@ nav {
 
 .location1 p {
     font-size: 1.8em;
+}
+
+
+
+select {
+    font-size: 1.2rem;
+    font-family: monospace;
+    padding: 25px 283px;
+    position: relative;
+    appearance: none;
+    outline: none;
+    border: none;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 0 2px 1px #dcb02d;
+}
+select option {
+    text-align: start;
+}
+
+.box2 span {
+    position: absolute;
+    right: 0;
+    pointer-events: none;
+}
+.box2 span img {
+    width: 70px;
 }

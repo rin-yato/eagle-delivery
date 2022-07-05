@@ -108,8 +108,9 @@ nav {
 .item1 {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
-.item1 > p {
+.item1 > .weight {
     width: 220px;
     height: 60px;
     border: #FDD251 1px solid;
@@ -134,11 +135,6 @@ nav {
 }
 
 .item2 {
-    display: flex;
-    align-items: center;
-}
-
-.item2 > div {
     width: 220px;
     height: 60px;
     border: #FDD251 1px solid;
@@ -149,6 +145,10 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
+
+
+
 
 .payment h2 {
     font-size: 1.5em;
@@ -218,4 +218,74 @@ nav {
 .letter {
     font-size: 1.3em;
 }
+
+
+.type {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.type select {
+    border: 0;
+    appearance: none;
+    padding: 20px 40px;
+    font-family: monospace;
+    font-size: 1em;
+    outline: none;
+    width: 100%;
+}
+
+.type span {
+    pointer-events: none;
+    right: 30px;
+    bottom: 6px;
+    position: absolute;
+}
+
+.two {
+    display: flex;
+}
+
+.item2 {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.item2 select {
+    border: 0;
+    appearance: none;
+    padding: 20px 40px;
+    font-family: monospace;
+    font-size: 1em;
+    outline: none;
+    width: 100%;
+}
+
+.item2 span {
+    pointer-events: none;
+    right: 30px;
+    bottom: 6px;
+    position: absolute;
+}
+
+.weight {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.weight select {
+    border: 0;
+    appearance: none;
+    padding: 20px 40px;
+    font-family: monospace;
+    font-size: 1em;
+    outline: none;
+    width: 100%;
+    text-align: center;
+}
+
+
 
