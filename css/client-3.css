@@ -1,0 +1,130 @@
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    padding: 20px 50px;
+}
+
+.profile {
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.profile a {
+    text-decoration: none;
+    color: #FDD251;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.profile img {
+    width: 50px;
+    align-self: center;
+    padding-left: 20px;
+}
+ .left {
+    min-width: 50vw;
+ }
+
+ .left h1 {
+    font-size: 3.5rem;
+ }
+
+ .left a {
+    width: 200px;
+    text-decoration: none;
+    padding: 15px 30px;
+    background: #FDD251;
+    border-radius: .5em;
+    font-size: 1.5em;
+    color: white;
+    box-shadow: 0 2px 1px #dcb02d;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+
+ .sell h2 {
+    font-size: 1.5rem;
+    color: gray;
+    margin: 25px 0px;
+ }
+
+ .sell p {
+    padding: 0 20px;
+    font-size: 1.2rem;
+ }
+
+ .right {
+    min-width: 700px;
+ }
+
+ .right h1 {
+    font-size: 3rem;
+ }
+
+ .box {
+    width: 500px;
+    height: 440px;
+    background: #FDD251;
+    border-radius: 1rem;
+    box-shadow: 0 2px 3px #dcb02d;
+    padding: 40px 40px;
+ }
+
+ .all {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+ }
+
+ .total b{
+    font-size: 2rem;
+    padding-right: 50px;
+ }
+
+ .total p {
+    font-size: 1.2rem;
+    align-self: center;
+ }
+
+ .description h3{
+    font-size: 1.5rem;
+    color: beige;
+    margin-bottom: 10px;
+ }
+
+ .description div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+ }
+
+ .description p {
+    font-size: 1rem;
+ }
+
+ .pay h3 {
+    font-size: 1.5rem;
+    color: beige;
+    margin-bottom: 10px;
+ }
+
+ .pay p {
+    font-size: 1rem;
+ }
