@@ -69,3 +69,50 @@ nav {
     border: 0;
     border: 2px solid #FDD251;
 }
+
+.all {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 300px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.out {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(76, 171, 225);
+    margin-right: 30px;
+}
+
+.in {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fafafa;
+    left: 13px;
+}
+
+
+.line p {
+    font-size: 1.2rem;
+}
+
+.box {
+    width: 500px;
+    height: 250px;
+    border: 2px solid salmon;
+    position: absolute;
+    margin: 40px 40px;
+    border: none;
+    border-left: 3px dotted black;
+}
