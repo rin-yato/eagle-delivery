@@ -264,3 +264,9 @@ select option {
 .box2 span img {
     width: 70px;
 }
+
+.booking {
+    background: #fafafa !important;
+    color: #FDD251 !important;
+    border: 3px solid #FDD251;
+}

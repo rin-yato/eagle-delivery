@@ -68,6 +68,9 @@ nav {
     outline: none;
     border: 0;
     border: 2px solid #FDD251;
+    font-size: 1.2rem;  
+    color: #604f1b;
+    font-family: monospace;
 }
 
 .all {
