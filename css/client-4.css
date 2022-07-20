@@ -73,6 +73,9 @@ nav {
     font-family: monospace;
 }
 
+::placeholder {
+    color: rgb(157, 155, 155);
+}
 .all {
     width: 600px;
     display: flex;
