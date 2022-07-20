@@ -60,9 +60,9 @@ nav {
 }
 
 .container input {
-    width: 550px;
+    width: 575px;
     height: 50px;
-    padding-left: 40px;
+    padding-left: 20px;
     border-radius: 1rem;
     margin-bottom: 20px;
     outline: none;
